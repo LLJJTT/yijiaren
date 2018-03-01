@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#7288d2",
+    "navigationBarTitleText": "吃喝玩乐全都有",
+    "navigationBarTextStyle":"white"
+  }
+}

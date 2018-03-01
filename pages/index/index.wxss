@@ -1,0 +1,128 @@
+/**index.wxss**/
+/*搜索  */
+.serarch-content{
+   background: white;
+   width:98%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-top: auto;
+   padding-left: 4rpx;
+   padding-bottom: auto;
+   height: 70rpx;
+   border-radius:5px 5px;
+   margin-top: 10rpx;
+}
+.search-icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.search-input{
+  width: 500rpx;
+  font-size: 28rpx;
+}
+.search-btn{
+  width: 150rpx;
+  height: 70rpx;
+  margin-right: 0rpx;
+  background-color:#53cabd;
+  font-size: 28rpx;
+  align-items: center;
+  border-radius: 0rpx 5rpx 5rpx 0rpx;
+  color:#fff;
+  box-shadow: none;
+  border:none;
+  position: relative;
+}
+.swiper {
+  margin-top:10rpx; 
+  height: 400rpx;
+  width: 98%;
+}
+.swiper image {
+ height: 100%;
+ width: 100%;
+}
+.title{
+  width: 100%;
+  background: #fff; 
+  display: block;
+  padding: 20rpx 0;
+  margin-top: 10rpx;
+}
+.dapai{
+  /* background: #000; */
+  font-size: 34rpx;
+  color: #000;
+  font-weight: bold;
+  padding-left: 40rpx;
+  border-left: 10rpx solid #000;
+}
+.product{
+  background: #fff;
+  padding-bottom: 10rpx;
+}
+.info{
+  width: 280rpx;
+  height: 200rpx;
+  margin: 4rpx 10rpx;
+  text-align: center;
+  border-radius: 6rpx;
+  position: relative;
+  display: inline-block;
+}
+.info image{
+  width: 100%;
+  height: 200rpx;
+  border-radius: 6rpx;
+}
+.word{
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 20rpx;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  margin-top: -60rpx;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6rpx;
+}
+.intro{
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-top:-180rpx;
+}
+.info1{
+  width: 280rpx;
+  height: 200rpx;
+  margin: 4rpx 10rpx;
+  text-align: center;
+  border-radius: 6rpx;
+  position: relative;
+  display: block;
+}
+.menu-container {
+  flex: 1;
+  display:inline;
+  width: 100%;
+}
+.menu-left {
+  width: 180rpx;
+  display: inline-block;
+}
+.menu-left-item {
+  padding: 20rpx 15rpx;
+  border-bottom: 2rpx solid #fff;
+  background-color: #f1f1f1;
+  text-align: center;
+  font-size: 26rpx;
+  color: #333;
+}
+

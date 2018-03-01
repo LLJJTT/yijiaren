@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="container">
+<!--轮播图-->
+  <swiper class="swiper" indicator-color="#fff" indicator-active-color="#53cabd" indicator-dots="true" autoplay="true" interval="2000" duration="500" circular="true">  
+    <block wx:for="{{movies}}" wx:key="index">  
+      <swiper-item>  
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+      </swiper-item>  
+    </block>  
+  </swiper>
+<!--搜索-->
+    <view class="serarch-content">
+      <image src="/images/search-pic.png" class="search-icon" />
+      <!--获取输入框值  -->
+      <input placeholder="请输入城市名字" class="search-input" maxlength="30" bindinput='searchContent'>
+      </input>
+      <button class='search-btn' bindtap="toSearch">搜索</button>
+    </view>
+    <view class="title">
+      <text class="dapai">精选大牌</text>
+    </view>
+    <!--左右滑动-->
+    <scroll-view class="product" scroll-x="true" style=" white-space: nowrap; display: flex" >
+      <view class="info">
+        <image src="http://112.74.63.14/interface/img/city/mdj.jpeg"  />
+        <view class="word">满498减400 ></view>
+        <view class='intro'>NINE WEST</view>
+      </view>
+      <view class="info">
+        <image src="http://112.74.63.14/interface/img/city/hg.jpeg"/>
+        <view class="word">满198减 108 ></view>
+        <view class='intro'>Perfume</view>
+      </view>
+      <view class="info">
+        <image src="http://112.74.63.14/interface/img/city/yc.jpeg" />
+        <view class="word">满180减80 ></view>
+        <view class='intro'>CHANEL</view>
+      </view>
+      <view class="info">
+        <image src="http://112.74.63.14/interface/img/city/mdj.jpeg"  />
+        <view class="word">满498减400 ></view>
+        <view class='intro'>NINE WEST</view>
+      </view>
+      <view class="info">
+        <image src="http://112.74.63.14/interface/img/city/hg.jpeg"  />
+        <view class="word">满198减 108 ></view>
+        <view class='intro'>Perfume</view>
+      </view>
+    </scroll-view>
+</view>
